@@ -74,6 +74,9 @@ body #textotitulo {
     background-color: rgba(0, 0, 0, 0.469);
     /* Color de fondo de los párrafos */
     text-align: justify;
+    margin-right: 25%;
+    margin-left: 25%;
+
 }
 
 /* Estilos comunes para encabezados, párrafos y tablas */
@@ -103,7 +106,7 @@ audio {
 
 /* Estilos para el control de audio */
 #audiocontrol {
-    margin-top: -66px;
+    margin-top: -55px;
     display: block;
     /* Elemento de bloque */
     position: absolute;
