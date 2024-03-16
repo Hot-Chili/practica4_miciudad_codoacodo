@@ -3,6 +3,17 @@ body {
     text-align: center;
 }
 
+#tituloinicio {
+    font-size: x-large;
+    margin-bottom: -5em;
+    background-color: rgba(0, 0, 0, 0.359);
+}
+
+a:hover{color: rgb(0, 140, 255);}
+
+#textotitulo{font-size: xx-large;}
+#parrafos{background-color: rgba(0, 0, 0, 0.469);}
+
 body h2,
 h1,
 h3,
@@ -10,16 +21,28 @@ h4,
 h5,
 p,
 table {
-    background-color: rgba(0, 0, 0, 0.349);
-    background-position: 0cm;
-}
-
-body a {
     display: inline-block;
 }
 
+#panelarriba {
+    background-color: rgba(0, 0, 0, 0.419);
+}
+
+#audiocontrol {
+    display: block;
+    position: absolute;
+    right: 1.5%;
+    top: 3%;
+}
+
+#menuarriba {
+    display: block;
+    position: absolute;
+    left: 1.5%;
+    top: 0.5%;
+}
+
 audio::-webkit-media-controls-panel {
-    background-color: rgba(98, 68, 13, 0.517);
     color: rgb(255, 255, 255);
 }
 
