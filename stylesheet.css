@@ -1,83 +1,210 @@
+/* Estilo global para el cuerpo de la página */
 body {
-    color: white;
+    color: rgb(255, 255, 255);
+    /* Color de texto global */
+}
+
+/* Estilos para los enlaces */
+a {
+    color-scheme: black;
+    /* Esquema de color para enlaces */
+    color: black;
+    /* Color de texto para enlaces */
     text-align: center;
+    /* Alineación de texto centrada */
 }
 
-#tituloinicio {
-    font-size: x-large;
-    margin-bottom: -5em;
-    background-color: rgba(0, 0, 0, 0.359);
+/* Estilos específicos para el menú superior */
+#menuarriba a {
+    /* Estilos de borde para los enlaces del menú superior */
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-style: solid;
+    /* Estilo de borde sólido */
+    border-color: white;
+    /* Color de borde */
+    display: inline;
+    /* Elemento en línea */
+    margin: 0.3em;
+    /* Margen entre elementos */
+    justify-content: center;
+    /* Alineación de contenido centrada */
+    background-color: white;
+    /* Color de fondo */
+    color: black;
+    /* Color de texto */
 }
 
-a:hover{color: rgb(0, 140, 255);}
+/* Estilos para enlaces no visitados */
+a:link {
+    text-decoration: none;
+    /* Sin decoración de texto */
+    color: black;
+    /* Color de texto para enlaces no visitados */
+}
 
-#textotitulo{font-size: xx-large;}
-#parrafos{background-color: rgba(0, 0, 0, 0.469);}
+/* Estilos para enlaces del menú superior al pasar el cursor */
+#menuarriba a:hover {
+    background-color: white;
+    /* Color de fondo al pasar el cursor */
+    color: rgb(0, 99, 179);
+    /* Color de texto al pasar el cursor */
+    cursor: pointer;
+    /* Cursor de puntero */
+}
 
-body h2,
-h1,
+/* Estilos para tablas */
+table {
+    background-color: rgba(0, 0, 0, 0.434);
+    /* Color de fondo de la tabla */
+}
+
+/* Estilos para el texto del título */
+body #textotitulo {
+    font-size: xx-large;
+    /* Tamaño de fuente extra grande */
+    text-align: center;
+    /* Alineación de texto centrada */
+}
+
+/* Estilos para los párrafos */
+#parrafos {
+    background-color: rgba(0, 0, 0, 0.469);
+    /* Color de fondo de los párrafos */
+    text-align: justify;
+}
+
+/* Estilos comunes para encabezados, párrafos y tablas */
+body,
 h3,
 h4,
 h5,
 p,
 table {
     display: inline-block;
+    /* Elementos en línea con comportamiento de bloque */
 }
 
+audio {
+    border-radius: 50%;
+    margin-top: 13px;
+    width: 100px;
+    height: 43px;
+}
+
+/* Estilos para el panel superior */
 #panelarriba {
     background-color: rgba(0, 0, 0, 0.419);
+    /* Color de fondo del panel superior */
+    padding: 0.1em;
+    /* Relleno del panel superior */
 }
 
+/* Estilos para el control de audio */
 #audiocontrol {
     display: block;
+    /* Elemento de bloque */
     position: absolute;
+    /* Posicionamiento absoluto */
     right: 1.5%;
+    /* Posición desde el borde derecho */
     top: 3%;
+    /* Posición desde la parte superior */
 }
 
+/* Estilos para el menú superior */
 #menuarriba {
     display: block;
+    /* Elemento de bloque */
     position: absolute;
+    /* Posicionamiento absoluto */
     left: 1.5%;
+    /* Posición desde el borde izquierdo */
     top: 0.5%;
+    /* Posición desde la parte superior */
 }
 
+/* Estilos para los controles de medios webkit */
 audio::-webkit-media-controls-panel {
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0);
+    /* Color de los controles de medios webkit */
 }
 
+/* Estilos para los párrafos */
 body #parrafos {
     font-size: large;
+    /* Tamaño de fuente grande */
 }
 
+/* Estilos para las tablas */
 body table {
     font-size: larger;
+    /* Tamaño de fuente más grande */
     letter-spacing: 3px;
+    /* Espaciado entre letras */
     font-family: Arial, Helvetica, sans-serif;
+    /* Fuente */
     font-style: oblique;
+    /* Estilo de fuente oblicua */
+    text-align: justify;
+    /* Alineación de texto justificada */
 }
 
+/* Estilos para enlaces */
 body a {
     color: white;
+    /* Color de texto para enlaces */
     font-size: 33px;
-    font-style: none;
+    /* Tamaño de fuente */
     text-decoration: none;
+    /* Sin decoración de texto */
 }
 
+/* Estilos para la sección del clima */
 #clima {
     background-image: url(https://get.pxhere.com/photo/nature-horizon-light-cloud-sky-sunlight-cloudy-air-atmosphere-photo-daytime-clear-cumulus-covered-blue-blue-sky-clouds-background-climate-blue-sky-clouds-meteorological-phenomenon-atmosphere-of-earth-639846.jpg);
+    /* Imagen de fondo */
 }
 
+/* Estilos para la sección de inicio */
 #inicio {
     background-image: url(https://tripin.travel/wp-content/uploads/2016/07/jjy-laquiaca01.jpg);
+    /* Imagen de fondo */
 }
 
+/* Estilos para imágenes */
 img {
     background-color: white;
+    /* Color de fondo de las imágenes */
 }
 
+/* Estilos para la sección del mapa */
 #mapa {
     background-image: url(./ruta-40jpg.webp);
+    /* Imagen de fondo */
     background-repeat: no-repeat;
+    /* No repetir la imagen de fondo */
     background-size: cover;
+    /* Tamaño de fondo que cubre completamente */
+}
+
+/* Estilos para elementos con clase "mapa" y elemento con id "mapacompleto" */
+.mapa,
+#mapacompleto {
+    text-align: center;
+    /* Alineación de texto centrada */
+}
+
+/* Estilos para el título de inicio */
+h2 {
+    font-size: x-large;
+    /* Tamaño de fuente extra grande */
+    background-color: rgba(0, 0, 0, 0.554);
+    /* Color de fondo */
+    display: grid;
+    /* Elementos en cuadrícula */
+    margin: 0.1px;
+    text-align: center;
 }
