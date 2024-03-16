@@ -103,16 +103,13 @@ audio {
 
 /* Estilos para el control de audio */
 #audiocontrol {
+    margin-top: -55px;
     display: block;
     /* Elemento de bloque */
     position: absolute;
     /* Posicionamiento absoluto */
     right: 1.5%;
     /* Posición desde el borde derecho */
-    top: 3%;
-    /* Posición desde la parte superior */
-        margin-top: 8px;
-
 }
 
 /* Estilos para el menú superior */
