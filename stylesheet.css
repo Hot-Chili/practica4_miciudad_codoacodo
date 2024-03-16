@@ -89,7 +89,6 @@ table {
 
 audio {
     border-radius: 50%;
-    margin-top: 5px;
     width: 100px;
     height: 43px;
 }
@@ -112,6 +111,8 @@ audio {
     /* Posición desde el borde derecho */
     top: 3%;
     /* Posición desde la parte superior */
+        margin-top: 8px;
+
 }
 
 /* Estilos para el menú superior */
